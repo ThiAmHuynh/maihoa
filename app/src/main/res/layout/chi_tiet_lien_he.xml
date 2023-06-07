@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="319dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="48dp"
+        android:background="#00BCD4"
+        android:text="Đến : piggy@gmail.com!!!   "
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="319dp"
+        android:layout_height="45dp"
+        android:background="#00BCD4"
+        android:text="Từ: teo@gmail.comcom "
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="339dp"
+        android:layout_height="390dp"
+        android:layout_marginTop="64dp"
+        android:background="#00BCD4"
+        android:text="soạn mail:"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="319dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="44dp"
+        android:background="#00BCD4"
+        android:text="chủ đề: góp ý xây dựng thêm chức năng"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+</androidx.constraintlayout.widget.ConstraintLayout>

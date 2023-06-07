@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ADF8B7"
+    android:layout_margin="15dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="8">
+        <TextView
+            android:id="@+id/txtTenThuNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="tien xang"
+            android:textSize="25dp"/>
+        <TextView
+            android:id="@+id/txtTienThuNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="5000"/>
+        <TextView
+            android:id="@+id/txtTienDaTra"
+            android:text="4000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/txtTienConThieu"
+            android:text="1000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ivThemTienNo"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_cong"/>
+    <ImageView
+        android:id="@+id/ivGiamTienNo"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_tru"/>
+    
+
+
+
+
+
+
+</LinearLayout>

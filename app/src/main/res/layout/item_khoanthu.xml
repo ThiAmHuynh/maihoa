@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FBF2A2"
+    android:layout_margin="15dp"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8">
+        <TextView
+            android:id="@+id/txtTenThu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="tien xang"
+            android:textSize="25dp"/>
+        <TextView
+            android:id="@+id/txtTienThu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="5000"/>
+        <TextView
+            android:id="@+id/txtNgayThu"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"/>
+    </LinearLayout>
+    
+
+
+    <ImageView
+        android:id="@+id/ivSuaThu"
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_sua"/>
+    <ImageView
+        android:id="@+id/ivXoaThu"
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_delete"/>
+
+
+
+</LinearLayout>

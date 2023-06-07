@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/nen_trangchu"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="469dp"
+        android:layout_height="190dp"
+        android:background="@mipmap/nentr"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="156dp"
+                android:text="Tài khoản"
+                android:textColor="#FFC107"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="4dp"
+                android:text="Nguyễn Văn A"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12"
+                app:layout_constraintVertical_bias="0.304" />
+
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="148dp"
+                android:layout_height="104dp"
+                android:layout_marginStart="140dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_a" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="372dp"
+            android:layout_height="400dp"
+            android:background="@mipmap/naptien"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="462dp">
+
+                <Button
+                    android:id="@+id/btnThu"
+                    android:layout_width="289dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="52dp"
+                    android:background="@drawable/custombuttonthu"
+                    android:backgroundTint="#B11111"
+                    android:text="QUẢN LÍ THU"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btnChi"
+                    android:layout_width="289dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="140dp"
+                    android:background="@drawable/custombuttonchi"
+                    android:text="QUẢN LÍ CHI"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:rippleColor="#D12828" />
+
+                <Button
+                    android:id="@+id/btnQLKH"
+                    android:layout_width="289dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/custombuttonthu"
+                    android:backgroundTint="#B11111"
+                    android:text="QUẢN LÍ KẾ HOẠCH"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnChi" />
+
+                <Button
+                    android:id="@+id/btnQLNO"
+                    android:layout_width="289dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="116dp"
+                    android:background="@drawable/custombuttonthu"
+                    android:backgroundTint="#B11111"
+                    android:text="QUẢN LÍ NỢ"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnChi" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

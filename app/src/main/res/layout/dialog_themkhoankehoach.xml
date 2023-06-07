@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Thêm khoản kế hoạch"
+        android:textStyle="bold"
+        android:textColor="#D500F9"
+        android:textSize="40dp"/>
+    <Spinner
+        android:id="@+id/spnLoaiKeHoach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtTienKeHoach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhâp tiền"
+        android:textSize="19sp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtChonngay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chọn ngày"
+        android:textSize="19sp" />
+
+
+</LinearLayout>

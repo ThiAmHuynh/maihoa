@@ -5,32 +5,34 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="#C4E2F6">
+    android:background="@mipmap/nen_thongke">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Bắt đầu từ"
         android:textSize="20dp"
-        android:textColor="#F80000"/>
+        android:textColor="#Ffff"/>
     <EditText
         android:id="@+id/edtNgayBatDau"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Chọn ngày bắt đầu"
-        android:textColor="#F80000"/>
+        android:textColor="#F80000"
+        android:textColorHint="#BFBBBB"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Đến ngày"
         android:textSize="20dp"
-        android:textColor="#F80000"/>
+        android:textColor="#Ffff"/>
     <EditText
         android:id="@+id/edtDenNgay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Chọn ngày kết thúc"
-        android:textColor="#F80000"/>
+        android:textColor="#F80000"
+        android:textColorHint="#BFBBBB"/>
     <Button
         android:id="@+id/btnThongKeThang"
         android:layout_width="match_parent"

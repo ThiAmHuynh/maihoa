@@ -25,8 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="1dp"
-        android:background="#F191B1"
-        app:itemIconTint="@color/custom_color"
-        app:itemTextColor="@color/custom_color"
+        android:background="#100F10"
+        app:itemIconTint="@color/textPrimary"
+        app:itemTextColor="@color/textPrimary"
         app:menu="@menu/menu_drawer" />
 </RelativeLayout>

@@ -13,13 +13,12 @@ import android.widget.Toast;
 
 import com.example.duan1.DAO.TaiKhoanDAO;
 import com.example.duan1.VerifyPhoneNumber.FingeprintActivity;
-import com.example.duan1.VerifyPhoneNumber.VerifyPhoneActivity;
 
 public class Login_Activity extends AppCompatActivity {
     TaiKhoanDAO taiKhoanDAO;
     CheckBox chkRememberPass;
     EditText edtUser, edtPass;
-    Button bntLogin,bntdangky,btnLoginOTP,btnLoginFinger;
+    Button bntLogin,bntdangky,btnLoginFinger;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +29,6 @@ public class Login_Activity extends AppCompatActivity {
         chkRememberPass = findViewById(R.id.chkRememberPass);
         bntLogin = findViewById(R.id.btnLogin);
         bntdangky = findViewById(R.id.btnDANGKY);
-        btnLoginOTP = findViewById(R.id.btnLoginOTP);
         btnLoginFinger = findViewById(R.id.btnLoginFinger);
 
         taiKhoanDAO = new TaiKhoanDAO(this);
@@ -63,13 +61,6 @@ public class Login_Activity extends AppCompatActivity {
             }
         });
 
-        btnLoginOTP.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Login_Activity.this, VerifyPhoneActivity.class);
-                startActivity(intent);
-            }
-        });
 
         btnLoginFinger.setOnClickListener(new View.OnClickListener() {
             @Override

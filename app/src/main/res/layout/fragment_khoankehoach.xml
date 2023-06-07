@@ -2,8 +2,9 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8C880"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:background="@mipmap/bgmoney"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:alpha="0.7">
 
     <ListView
         android:id="@+id/listViewKhoanKeHoach"

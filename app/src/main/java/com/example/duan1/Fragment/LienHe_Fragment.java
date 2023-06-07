@@ -45,7 +45,7 @@ public class LienHe_Fragment extends Fragment {
             }
         });
 
-        txtHotLine.setText("0969157141");
+        txtHotLine.setText("0783856055");
         txtHotLine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

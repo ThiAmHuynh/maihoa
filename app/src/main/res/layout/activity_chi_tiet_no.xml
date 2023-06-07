@@ -8,7 +8,7 @@
     android:orientation="vertical">
     <TextView
         android:textSize="50dp"
-        android:textColor="#EF6D28"
+        android:textColor="#F8071C"
         android:textStyle="bold"
         android:gravity="center"
         android:text="Chi tiết nợ"

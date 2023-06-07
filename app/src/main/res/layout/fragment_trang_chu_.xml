@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@mipmap/nen_trangchu"
+    android:background="@mipmap/bgmoney"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
@@ -20,7 +20,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#000">
 
             <TextView
                 android:id="@+id/textView12"
@@ -57,7 +58,7 @@
                 android:layout_marginStart="140dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_a" />
+                app:srcCompat="@drawable/ic_account" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>

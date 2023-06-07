@@ -5,13 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Login_Activity">
+    tools:context=".Login_Activity"
+    android:background="@mipmap/money2">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="652dp"
-        android:layout_height="230dp"
-        app:srcCompat="@mipmap/hinhtron" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Welcome to the app !"
-            android:textColor="#00BCD4"
+            android:textColor="#FB0419"
             android:textSize="31sp"
             android:textStyle="bold" />
 
@@ -48,7 +44,7 @@
                 android:textSize="20dp"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="#000000" />
+                android:textColor="#FBFAFA" />
 
             <EditText
                 android:id="@+id/edtUsername"
@@ -58,7 +54,8 @@
                 android:hint="Tên đăng nhập"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="#000000" />
+                android:textColor="#FAF9F9"
+                android:textColorHint="#BFBBBB"/>
 
             <EditText
                 android:id="@+id/edtPassword2"
@@ -69,7 +66,8 @@
                 android:inputType="textPassword"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="#000000" />
+                android:textColor="#FAF7F7"
+                android:textColorHint="#BFBBBB" />
 
             <EditText
                 android:id="@+id/edtPassword"
@@ -80,7 +78,8 @@
                 android:inputType="textPassword"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="#000000" />
+                android:textColor="#FBFBFB"
+                android:textColorHint="#BFBBBB"/>
 
             <Button
                 android:id="@+id/btnDangKy"
@@ -97,7 +96,7 @@
 
             <Button
                 android:id="@+id/btnHuy"
-                android:layout_width="110dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"

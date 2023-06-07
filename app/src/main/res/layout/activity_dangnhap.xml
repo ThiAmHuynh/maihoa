@@ -5,21 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Login_Activity">
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="693dp"
-        android:layout_height="100dp"
-        app:srcCompat="@mipmap/hinhtron" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/tvRegister"
-        android:layout_marginTop="30dp"
-        android:gravity="center"
-        android:orientation="vertical">
+    tools:context=".Login_Activity"
+    android:background="@mipmap/money2">
 
 
         <TextView
@@ -28,15 +15,16 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Welcome to the app !"
-            android:textColor="#00BCD4"
+            android:textColor="#F60318"
             android:textSize="31sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="70dp"
             android:layout_marginRight="30dp"
             android:orientation="vertical">
 
@@ -48,7 +36,8 @@
                 android:hint="Tên đăng nhập"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="#000000" />
+                android:textColor="#FDFCFC"
+                android:textColorHint="#ffff"/>
 
             <EditText
                 android:id="@+id/edtPassword"
@@ -59,7 +48,8 @@
                 android:inputType="textPassword"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="#000000" />
+                android:textColor="#FBF8F8"
+                android:textColorHint="#ffff"/>
 
             <Button
                 android:id="@+id/btnLogin"
@@ -75,22 +65,10 @@
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/btnLoginOTP"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/botron_button"
-                android:padding="4dp"
-                android:text="Đăng nhập bằng OTP"
-                android:textAllCaps="false"
-                android:textColor="#ffffff"
-                android:textSize="20sp" />
-            <Button
                 android:id="@+id/btnLoginFinger"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="75dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/botron_button"
                 android:padding="4dp"
@@ -117,8 +95,9 @@
                 android:layout_width="225dp"
                 android:layout_height="wrap_content"
                 android:text="Luu mat khau"
-                android:textAlignment="textStart" />
-        </LinearLayout>
+                android:textAlignment="textStart"
+                android:textColor="#F1F1F1" />
+
     </LinearLayout>
 
 </LinearLayout>

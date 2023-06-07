@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@mipmap/nen_lienhe"
+    android:background="@mipmap/bgmoney"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -11,7 +11,6 @@
         android:layout_width="419dp"
         android:layout_height="71dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/botron_button"
         android:text="Báo cáo chi tiêu tháng:"
         android:textAlignment="center"
         android:textColor="#FFFFFF"

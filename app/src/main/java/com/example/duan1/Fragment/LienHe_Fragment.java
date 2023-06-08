@@ -54,14 +54,14 @@ public class LienHe_Fragment extends Fragment {
         });
 
 
-        txtLinkFB.setText("https://www.facebook.com/hoa.trinhthai.1/");
+        txtLinkFB.setText("https://www.facebook.com/profile.php?id=100093580862440");
         txtLinkFB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Linkify.addLinks(txtLinkFB, Linkify.WEB_URLS);
             }
         });
-        txtGmail.setText("hoatrinh14020@gmail.com");
+        txtGmail.setText("huynhmaihoa.work@gmail.com");
         txtGmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
